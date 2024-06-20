@@ -38,7 +38,6 @@ Parameters:
 - `session`: A requests.Session object for making HTTP requests.
 Returns: A string containing the article content.
 
-
 `main`
 This is the main function that orchestrates the scraping process.
 
