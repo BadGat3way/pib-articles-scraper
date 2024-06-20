@@ -13,7 +13,9 @@ A simple, yet robust and efficient, Python based web scraper to compile and orga
 ## Installation and Usage
 In case any of the aforementioned required dependencies are not installed on your system, the Python script automatically installs them using pip (a package installer for Python).
 Open the terminal in the installed directory and run the script by following command.
+
 `python pib_articles_scraper.py`
+
 The script will collect and organize the Date of Publication, Headline, Content and Link of the article released by the Press Information Bureau (PIB) in the period of January 1st, 2024 to March 31st, 2024 (can be easily modified to any other period, simply change the start and end parameters in the date_range dataframe) in a CSV file named "pib_articles.csv" in the same working directory as the python script.
 
 ## Script Overview
